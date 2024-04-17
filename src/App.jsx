@@ -2,7 +2,6 @@ import Benefits from "./components/shared/Benefits";
 import Header from "./components/shared/Header";
 import Hero from "./components/shared/Hero";
 import Pricing from "./components/shared/Pricing";
-import Section from "./components/shared/Section";
 
 const App = () => {
   return (
