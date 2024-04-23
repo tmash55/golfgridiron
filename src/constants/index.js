@@ -3,7 +3,6 @@ import {
   benefitIcon2,
   benefitIcon3,
   benefitIcon4,
-  benefitImage2,
   chromecast,
   disc02,
   discord,
@@ -17,7 +16,6 @@ import {
   homeSmile,
   instagram,
   notification2,
-  notification3,
   notification4,
   notion,
   photoshop,
@@ -62,13 +60,13 @@ export const navigation = [
   {
     id: "4",
     title: "New account",
-    url: "#signup",
+    url: "/signup",
     onlyMobile: true,
   },
   {
     id: "5",
     title: "Sign in",
-    url: "#login",
+    url: "/login",
     onlyMobile: true,
   },
 ];

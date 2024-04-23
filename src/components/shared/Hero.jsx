@@ -8,6 +8,8 @@ import { BackgroundCircles, BottomLine, Gradient } from "../design/Hero";
 import Notification from "./Notification";
 import Creating from "./Creating";
 import CompanyLogos from "./CompanyLogos";
+import { Button } from "../ui/button";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const parallaxRef = useRef(null);
@@ -28,13 +30,9 @@ const Hero = () => {
             Join Golf Gridiron for unforgettable golfing experiences! Create
             custom events and tournaments effortlessly. Tee off with us now!
           </p>
-          <CustomButton
-            href="/signup"
-            white
-            className="bg-n-1 hover:text-n-3 rounded-xl"
-          >
-            Get Started
-          </CustomButton>
+          <Button className="bg-n-1 text-n-8 hover:text-color-1 hover:bg-n-8 hover:border-2 hover:border-color-1 rounded-xl w-[200px]">
+            <Link href="/login">Get Started</Link>
+          </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl border-2 border-color-1">

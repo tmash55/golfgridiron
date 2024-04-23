@@ -1,7 +1,7 @@
 import React from "react";
 
-function CreatePost() {
+function CreateEvent() {
   return <div></div>;
 }
 
-export default CreatePost;
+export default CreateEvent;

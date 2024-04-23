@@ -1,6 +1,7 @@
+import { pricing } from "@/constants";
 
-import { check } from "../assets";
-import CustomButton from "./CustomButton"
+import CustomButton from "./CustomButton";
+import { check } from "@/assets";
 
 const PricingList = () => {
   return (
